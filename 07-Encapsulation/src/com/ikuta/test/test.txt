@@ -1,0 +1,29 @@
+1.请通过代码封装，实现如下需求：
+	编写一个类book，代表教材
+	1.具有属性：名称title、页数pageNum
+	2.其中页数不能少于200页，否则输出错误信息，并赋默认值200
+	3.为各属性提供赋值和取值方法
+	4.具有方法：detail，用来在控制台输出每本教材的名称和页数
+	5.编写程序BookTest进行测试：	为Book对象的属性赋予初始值，
+									调用Book对象的detail方法。
+2.编写一个类Account，代表账户
+	1.具有属性：账户id、余额balance、年利率annualInterestRate
+	2.具有方法：各属性的set和get方法、取款方法withdraw()、存款方法deposit()
+	3.编写测试程序AccountTest
+		3.1创建一个Customer，名字叫Jane Smith，账号为1000，余额为2000，年利率为1.23%
+		3.2	对Jane Smith操作					信息显示
+			---------------------------------------------------------------------------------------------------------------
+			存入100元							成功存入：100
+			取出960元							成功取出：960
+			取出2000元							余额不足，取钱失败
+			打印Jane Smith的基本信息			Customer[Smith，Jane] has a account：id is 1000 annualInterestRate is 1.23% balance is 1140
+3.(封装)已知一个类Student代码如下：
+class Student{
+	String name;
+	int age;
+	String address;
+	String zipCode;
+	String mobile;
+}
+要求1：把Student的属性都作为私有，并提供get和set方法以及适当的构造方法。
+要求2：为Student类添加一个getPostAddress方法，要求返回Student对象的地址和邮编
