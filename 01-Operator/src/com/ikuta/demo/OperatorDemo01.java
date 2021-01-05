@@ -9,6 +9,13 @@ package com.ikuta.demo;
 ++	自加1
 --	自减1
 */
+
+/**
+ * @author Ikuta
+ * @classname OperatorDemo01
+ * @date 2021/1/5 19:50
+ * @email 934442950@qq.com
+ */
 public class OperatorDemo01 {
     public static void main(String[] args) {
         int a = 10;
